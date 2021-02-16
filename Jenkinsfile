@@ -4,6 +4,7 @@ pipeline {
     stage('crear archivo') {
       steps {
         writeFile(file: 'prueba.txt', text: 'contenido del archivo')
+        archiveArtifacts '*.txt'
       }
     }
 
