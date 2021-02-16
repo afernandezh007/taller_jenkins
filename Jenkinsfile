@@ -11,7 +11,7 @@ pipeline {
     stage('helloworld') {
       steps {
         bat 'SET'
-        echo 'Hello world $minombre'
+        echo 'Hello world ${minombre}'
       }
     }
 
