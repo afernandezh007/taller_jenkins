@@ -8,6 +8,12 @@ pipeline {
       }
     }
 
+    stage('helloworld') {
+      steps {
+        bat 'echo %PATH%'
+      }
+    }
+
   }
   environment {
     minombre = 'Antonio'
