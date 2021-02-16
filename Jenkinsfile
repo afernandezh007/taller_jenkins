@@ -4,6 +4,7 @@ pipeline {
     stage('hello world') {
       steps {
         echo 'hola mundo!'
+        sh 'echo %PATH%'
       }
     }
 
