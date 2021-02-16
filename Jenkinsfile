@@ -9,4 +9,7 @@ pipeline {
     }
 
   }
+  environment {
+    minombre = 'Antonio'
+  }
 }
